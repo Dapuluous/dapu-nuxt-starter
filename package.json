@@ -17,9 +17,9 @@
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@nuxt/eslint": "^1.10.0",
-    "@nuxt/ui": "^2.17.0",
+    "@nuxt/ui": "^4.1.0",
     "animate.css": "^4.1.1",
-    "nuxt": "^3.12.4",
+    "nuxt": "^4.2.1",
     "vue": "latest"
   }
 }
