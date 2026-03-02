@@ -7,7 +7,5 @@ export default defineNuxtConfig({
     preference: "light",
   },
 
-  css: ["@fortawesome/fontawesome-svg-core/styles.css"],
-
   modules: ["@nuxt/ui", '@nuxt/eslint'],
 });
