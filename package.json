@@ -17,5 +17,9 @@
     "animate.css": "^4.1.1",
     "nuxt": "^4.3.1",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.3",
+    "eslint-plugin-perfectionist": "^5.6.0"
   }
 }
