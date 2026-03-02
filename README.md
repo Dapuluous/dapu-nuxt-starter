@@ -16,15 +16,15 @@ A Nuxt 4 starter template with a layer-based architecture, pre-configured with U
 The project uses [Nuxt Layers](https://nuxt.com/docs/getting-started/layers) to organize features. Each layer is self-contained with its own pages, components, composables, and utilities.
 
 ```
-layer-template/              # Copy this to scaffold a new layer
+layers-template/              # Copy this to create a new layer
 layers/
-├── base/                    # Core layer — layouts, shared composables/utils, Nuxt v4 compat
+├── base/
 │   └── app/
 │       ├── layouts/default.vue
 │       ├── pages/index.vue          # → /
 │       ├── composables/
 │       └── utils/
-└── about/                   # Example feature layer
+└── about/
     └── app/
         ├── pages/about/index.vue    # → /about
         ├── components/
@@ -37,10 +37,6 @@ layers/
 1. Copy `layer-template/` into `layers/` and rename it (e.g. `layers/dashboard`)
 2. Rename the page folder to match: `app/pages/dashboard/index.vue` → resolves to `/dashboard`
 3. Rename all `FeatureName` / `featureName` / `feature-name` placeholders to your feature
-4. Register the layer in [nuxt.config.ts](nuxt.config.ts):
-   ```ts
-   extends: ['./layers/base', './layers/dashboard']
-   ```
 
 ## Scripts
 
