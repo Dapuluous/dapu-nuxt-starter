@@ -1,1 +1,5 @@
-export default defineNuxtConfig({})
+export default defineNuxtConfig({
+  future: {
+    compatibilityVersion: 4,
+  },
+})
